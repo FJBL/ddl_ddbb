@@ -1,3 +1,6 @@
+DROP TABLE category_appv;
+DROP TABLE productos_appv;
+
 CREATE TABLE category_appv (
     id SERIAL PRIMARY KEY,
     categoria VARCHAR(25) NOT NULL,
